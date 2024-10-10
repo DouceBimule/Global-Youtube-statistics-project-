@@ -6,12 +6,18 @@ final project for 30 days of data story telling challenge at ZINDUA School
 STEP 1. Defined Business Problem/Question
 
 Business Problem:
+
 Understanding the factors that drive video performance on YouTube to optimise content creation.
 Key Questions to Address:
+
 What characteristics of YouTube videos (e.g. category, country per category, views per category, yearly earnings per category ).
+
 How does audience engagement vary across different content categories?
+
 What trends exist in viewer retention and how can they inform content strategy?
+
 What video category has the highest yearly earnings?
+
 What countries have the highest subscribers?
 Does the number of population per country affect the video views?
 Employment rate(how does it influence the content creation).
