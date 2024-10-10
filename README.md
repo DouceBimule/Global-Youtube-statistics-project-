@@ -1,7 +1,10 @@
 
 # Global Youtube statistics project 
- final project for 30 days of data story telling challenge at ZINDUA School
+ 
+final project for 30 days of data story telling challenge at ZINDUA School
+
 STEP 1. Defined Business Problem/Question
+
 Business Problem:
 Understanding the factors that drive video performance on YouTube to optimise content creation.
 Key Questions to Address:
