@@ -19,24 +19,36 @@ What trends exist in viewer retention and how can they inform content strategy?
 What video category has the highest yearly earnings?
 
 What countries have the highest subscribers?
+
 Does the number of population per country affect the video views?
+
 Employment rate(how does it influence the content creation).
+
 Demographic Information: Incorporate viewer demographic data to personalise content strategies.
 
+
 Objective:
+
 Provide actionable insights to content creators, and platform managers to enhance video performance, increase audience engagement, and drive channel growth.
 
 STEP 2. Data Overview
+
 Data Source:
+
 The dataset utilised for this project is sourced from Kaggle and specifically pertains to YouTube video statistics.
+
 Dataset Description:
-Number of Records: Approximately 500,000 videos. 
-And we have 28 columns stated below
+
+Number of Records: Approximately 500,000 videos.
+
+And we have 28 columns stated below:
+
 Key Attributes:
-Rank: rank of the youtuber 
+
+Rank: rank of the youtuber
 Youtuber: name of the youtube channel
 Subscribers: numbers of subscribers per youtube channel
-video views: Total numbers of views per video
+video views: Total numbers of views per video.
 Category: Numerical identifier representing the video category (e.g., Music, Education).
 Title: Title of the video     
 Uploads: number of videos uploaded by the youtuber.
@@ -63,7 +75,9 @@ Latitude: measurement of a location north or south of the Equator for each count
 Longitude: measurement of location east or west of the prime meridian at Greenwich for each country.
 
      Data Quality Considerations:
+     
 Missing Values: Some records may have missing values in fields like dislikes or comment counts.
+
 category                             46 nulls.
 Country                             122 nulls.
 channel_type                         30 nulls.
@@ -76,14 +90,18 @@ Population                          123 nulls.
 Latitude                            123 nulls.
 Longitude                           123 nulls.
 
+
  Type of data in the dataset: 
+ 
 Object
 Float 
 Integer 
 
 STEP 3. SQL Database Design
+
 To effectively manage and query the YouTube statistics data, a relational database design is proposed. The design includes the following tables and their relationships:
 Tables and Relationships:
+
 Categories
 CategoryID (Primary Key)
 CategoryName
@@ -128,44 +146,69 @@ Entity-Relationship Diagram (ERD):
 
 
 Explanation:
+
 YouTuber - Categories: A YouTuber can belong to different categories (e.g., gaming, lifestyle, education).
+
 YouTuber - Channel_Statistic: Each YouTuber has their respective statistics like earnings, ranks, and other metrics.
+
 YouTuber - Country: YouTubers live in a specific country, and countries can host multiple YouTubers.
+
 Country - Location: Countries have locations identified by latitude and longitude.
+
 Normalization Considerations:
+
 Ensuring data redundancy is minimized by separating categories, channels, and engagement metrics into distinct tables.
+
 Facilitating efficient queries and scalability for large datasets.
 
 STEP 4. Visualizations and Insights
+
 Visualizations Generated:
+
 Video views by Category:
+
 Type: Donut Chart
 Insight: Identifies which categories have the highest views.
+
 Number of Subscribers by Category:
+
 Type: Clustered Bar Chart
 Insight: Identifies the number of subscribers by Category.
+
 Yearly Earnings by Category:
+
 Type: Matrix Table
 Insight: Highlights the most highest earning videos by category,allowing analysis of common categories among top performers.
 Countries with You-Tube
 Type: Slicer
 Insight: Highlights different variables of countries in terms of category, video views,subscriptions and yearly earnings.
+
 Subscribers By Country:
+
 Type: Map
 Insight: Highlights distribution of You-tube Subscribers globally.
+
 Geographical Distribution of Yearly earnings:
+
 Type: Map
 Insight: Visualizes where highest yearly earnings are distributed.
+
 Unemployment rate By Country:
+
 Type: Tree Map
 Insight: Displays the rate of unemployment rate by country and its influence on content creation,views and subscription.
 Insights Derived:
+
 High-Performing Categories:
 Categories like Music and Entertainment consistently show higher view counts and engagement rates compared to others.
+
 Engagement Metrics Correlation:
+
 A strong positive correlation exists between views and subcriptions indicating that higher subscription counts generally lead to increased engagement and views.
+
 Subscriber Influence:
 Channels with larger subscriber bases experience faster growth in views and engagement per video, highlighting the importance of building a loyal audience.
+
 Geographical Viewer Trends:
 A significant portion of views originates from North America and India, informing targeted marketing strategies.
 
