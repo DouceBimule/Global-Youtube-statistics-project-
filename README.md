@@ -230,3 +230,10 @@ Leverage Advanced Analytics: Utilise machine learning and AI to uncover patterns
 Focus on Content Optimization: Apply insights to refine content strategies, aiming for higher engagement and viewer satisfaction.
 Continuous Monitoring: Establish ongoing data analysis practices to adapt to changing viewer behaviours and platform algorithms.
 
+
+
+![Global You-tube Statistics](https://github.com/user-attachments/assets/5c2f2799-23fc-4530-bb03-3240684fab57)
+![Global You-Tube Demographics](https://github.com/user-attachments/assets/f77af95e-529d-4f63-b960-f3558a92f225)
+
+![Global You Tube Statistics Dashboard](https://github.com/user-attachments/assets/5b3ef594-97ec-4dd6-be02-d3e2dd6cb19d)
+![Global You-Tube Demographics Dashboard](https://github.com/user-attachments/assets/c8370aa4-65fb-4a16-aba1-fe37524d2968)
