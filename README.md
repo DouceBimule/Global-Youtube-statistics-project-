@@ -124,7 +124,8 @@ YoutuberID
 Latitude 
 Longitude
 Entity-Relationship Diagram (ERD):
-![YouTuber rank and earnings](https://github.com/user-attachments/assets/a4218309-f5a2-49a3-9f71-9fc495b3db17)
+![ER DIAGRAM DESIGN](https://github.com/user-attachments/assets/0938e083-32ef-4c31-af8c-ec6923fd4c5b)
+
 
 
 
