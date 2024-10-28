@@ -208,7 +208,9 @@ Continuous Monitoring: Establish ongoing data analysis practices to adapt to cha
 
 
 ![Global You-tube Statistics](https://github.com/user-attachments/assets/5c2f2799-23fc-4530-bb03-3240684fab57)
-![Global You-Tube Demographics](https://github.com/user-attachments/assets/f77af95e-529d-4f63-b960-f3558a92f225)
+![Global YouTube Demographics](https://github.com/user-attachments/assets/1c349e39-c528-4ffd-afd5-c2f794281f31)
+
+
 
 ![Category of YouTube by views and subscribers to country](https://github.com/user-attachments/assets/1902ffbe-18be-4bfe-b166-d96828d1abb7)
 ![Earnings and Subscribers by Channel Type](https://github.com/user-attachments/assets/8656107f-9c74-461e-a3b4-97bf0f0d17fd)
