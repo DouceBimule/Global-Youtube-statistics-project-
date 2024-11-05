@@ -41,7 +41,7 @@ Abbreviation:
 19) Longitude: measurement of location east or west of the prime meridian at Greenwich for each country.
 
      Data Quality Considerations:
-Missing Values: Some records may have missing values in fields like dislikes or comment counts.
+ Missing Values: Some records may have missing values in fields like dislikes or comment counts.
 - category                             46 nulls.
 - Country                             122 nulls.
 - channel_type                         30 nulls.
@@ -64,8 +64,11 @@ Integer
 
 
 Defined Business Problem/Question
+
 Business Problem:
+
 Understanding the factors that drive video performance on YouTube to optimise content creation.
+
 Key Questions to Address:
 1) What characteristics of YouTube videos (e.g. category, country per category, views per category, yearly earnings per category ).
 2) How does audience engagement vary across different content categories?
@@ -82,47 +85,55 @@ Provide actionable insights to content creators, and platform managers to enhanc
 
 
  SQL Database Design
+ 
 To effectively manage and query the YouTube statistics data, a relational database design is proposed. The design includes the following tables and their relationships:
+
 Tables and Relationships:
-Categories
-CategoryID (Primary Key)
-CategoryName
-Channel Statistics
-StatID (Primary Key)
-YoutuberID(Foreign Key referencing Youtuber(YoutuberID))
-Videos View Rank
-Channel Type Rank
-Lowest Monthly Earnings
-Highest Monthly Earnings
-Lowest Yearly Earnings
-Highest Yearly Earnings
-Youtuber
-YoutuberID (Primary Key)
-YoutuberName
-Channel Type
-Global Rank
-Subscribers
-Video Uploads
-Video Views
-Video Views last 30 days
-Subscriber Last 30 days
-Created Year
-Created Month
-Created Day
-CategoryID (Foreign Key referencing Categories.CategoryID)
-Country
-CountryID (Primary Key)
-Country Name
-Abbreviation
-Population
-Unemployment Rate
-Urban Population
-Gross Tertiary Enrollment
-Location
-LocationID (Primary Key)
-YoutuberID 
-Latitude 
-Longitude
+
+1) Categories
+- CategoryID (Primary Key)
+- CategoryName
+  
+2) Channel Statistics
+- StatID (Primary Key)
+- YoutuberID(Foreign Key referencing Youtuber(YoutuberID))
+- Videos View Rank
+- Channel Type Rank
+- Lowest Monthly Earnings
+- Highest Monthly Earnings
+- Lowest Yearly Earnings
+- Highest Yearly Earnings
+- 
+3) Youtuber
+- Youtuber ID (Primary Key)
+- YoutuberName
+- Channel Type
+- Global Rank
+- Subscribers
+- Video Uploads
+- Video Views
+- Video Views last 30 days
+- Subscriber Last 30 days
+- Created Year
+- Created Month
+- Created Day
+- CategoryID (Foreign Key referencing Categories.CategoryID)
+  
+4) Country
+- CountryID (Primary Key)
+- Country Name
+- Abbreviation
+- Population
+- Unemployment Rate
+- Urban Population
+- Gross Tertiary Enrollment
+  
+5) Location
+- LocationID (Primary Key)
+- YoutuberID 
+- Latitude 
+- Longitude
+  
 Entity-Relationship Diagram (ERD):
 ![ER DIAGRAM DESIGN](https://github.com/user-attachments/assets/0938e083-32ef-4c31-af8c-ec6923fd4c5b)
 
@@ -132,78 +143,91 @@ Entity-Relationship Diagram (ERD):
 
 
 Explanation:
-YouTuber - Categories: A YouTuber can belong to different categories (e.g., gaming, lifestyle, education).
-YouTuber - Channel_Statistic: Each YouTuber has their respective statistics like earnings, ranks, and other metrics.
-YouTuber - Country: YouTubers live in a specific country, and countries can host multiple YouTubers.
-Country - Location: Countries have locations identified by latitude and longitude.
+- YouTuber - Categories: A YouTuber can belong to different categories (e.g., gaming, lifestyle, education).
+- YouTuber - Channel_Statistic: Each YouTuber has their respective statistics like earnings, ranks, and other metrics.
+- YouTuber - Country: YouTubers live in a specific country, and countries can host multiple YouTubers.
+- Country - Location: Countries have locations identified by latitude and longitude.
 
 Normalization Considerations:
 Ensuring data redundancy is minimized by separating categories, channels, and engagement metrics into distinct tables.
+
 Facilitating efficient queries and scalability for large datasets.
 
 4. Visualizations and Insights
    
 Visualizations Generated:
 
-Video views by Category:
-Type: Donut Chart
-Insight: Identifies which categories have the highest views.
+1) Video views by Category:
+ Type: Donut Chart
+ Insight: Identifies which categories have the highest views.
 
-Number of Subscribers by Category:
-Type: Clustered Bar Chart
-Insight: Identifies the number of subscribers by Category.
+2) Number of Subscribers by Category:
+ Type: Clustered Bar Chart
+ Insight: Identifies the number of subscribers by Category.
 
-Yearly Earnings by Category:
-Type: Matrix Table
-Insight: Highlights the most highest earning videos by category,allowing analysis of common categories among top performers.
+3) Yearly Earnings by Category:
+ Type: Matrix Table
+ Insight: Highlights the most highest earning videos by category,allowing analysis of common categories among top performers.
 
-Countries with You-Tube
-Type: Slicer
-Insight: Highlights different variables of countries in terms of category, video views,subscriptions and yearly earnings.
+4) Countries with You-Tube
+ Type: Slicer
+ Insight: Highlights different variables of countries in terms of category, video views,subscriptions and yearly earnings.
 
-Subscribers By Country:
-Type: Map
-Insight: Highlights distribution of You-tube Subscribers globally.
+5) Subscribers By Country:
+ Type: Map
+ Insight: Highlights distribution of You-tube Subscribers globally.
 
-Geographical Distribution of Yearly earnings:
-Type: Map
-Insight: Visualizes where highest yearly earnings are distributed.
+6) Geographical Distribution of Yearly earnings:
+ Type: Map
+ Insight: Visualizes where highest yearly earnings are distributed.
 
-Unemployment rate By Country:
-Type: Tree Map
-Insight: Displays the rate of unemployment rate by country and its influence on content creation,views and subscription.
+7) Unemployment rate By Country:
+ Type: Tree Map
+ Insight: Displays the rate of unemployment rate by country and its influence on content creation,views and subscription.
 
 Insights Derived:
-High-Performing Categories:
+
+- High-Performing Categories:
+  
 Categories like Music and Entertainment consistently show higher view counts and engagement rates compared to others.
-Engagement Metrics Correlation:
+
+- Engagement Metrics Correlation:
+  
 A strong positive correlation exists between views and subcriptions indicating that higher subscription counts generally lead to increased engagement and views.
-Subscriber Influence:
+
+- Subscriber Influence:
+  
 Channels with larger subscriber bases experience faster growth in views and engagement per video, highlighting the importance of building a loyal audience.
-Geographical Viewer Trends:
+
+- Geographical Viewer Trends:
+  
 A significant portion of views originates from North America and India, informing targeted marketing strategies.
 
 6. Next Steps for the Project
    
 Addressing Data Gaps:
 
-Competitive Analysis:
+- Competitive Analysis:
 Opportunity: Compare channel performance against competitors to identify market positioning.
+
 Action: Collect and analyse data from similar channels within the same categories.
 
-Content Quality Metrics:
+- Content Quality Metrics:
 Opportunity: Assess qualitative aspects such as video production quality, thumbnail effectiveness, and title optimization.
+
 Action: Utilise image and text analysis tools to evaluate thumbnails and titles for attractiveness and relevance.
 
-Monetization Data:
+- Monetization Data:
 Opportunity: Explore the relationship between video performance and revenue generation.
+
 Action: If accessible, include data on ad revenue, sponsorship deals, and merchandise sales linked to video performance.
 
 Final Recommendations:
-Enhance Data Collection: Expand the dataset to include additional relevant metrics that can provide deeper insights.
-Leverage Advanced Analytics: Utilise machine learning and AI to uncover patterns and predictions that traditional analysis might miss.
-Focus on Content Optimization: Apply insights to refine content strategies, aiming for higher engagement and viewer satisfaction.
-Continuous Monitoring: Establish ongoing data analysis practices to adapt to changing viewer behaviours and platform algorithms.
+
+- Enhance Data Collection: Expand the dataset to include additional relevant metrics that can provide deeper insights.
+- Leverage Advanced Analytics: Utilise machine learning and AI to uncover patterns and predictions that traditional analysis might miss.
+- Focus on Content Optimization: Apply insights to refine content strategies, aiming for higher engagement and viewer satisfaction.
+- Continuous Monitoring: Establish ongoing data analysis practices to adapt to changing viewer behaviours and platform algorithms.
 
 
 
