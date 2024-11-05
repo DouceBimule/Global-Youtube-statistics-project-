@@ -42,17 +42,17 @@ Abbreviation:
 
      Data Quality Considerations:
 Missing Values: Some records may have missing values in fields like dislikes or comment counts.
-category                             46 nulls.
-Country                             122 nulls.
-channel_type                         30 nulls.
-video_views_rank                      1 null.
-channel_type_rank                    33 nulls.
-video_views_for_the_last_30_days     56 nulls.
-subscribers_for_last_30_days        337 nulls.
-created_year                          5 nulls.
-Population                          123 nulls.
-Latitude                            123 nulls.
-Longitude                           123 nulls.
+- category                             46 nulls.
+- Country                             122 nulls.
+- channel_type                         30 nulls.
+- video_views_rank                      1 null.
+- channel_type_rank                    33 nulls.
+- video_views_for_the_last_30_days     56 nulls.
+- subscribers_for_last_30_days        337 nulls.
+- created_year                          5 nulls.
+- Population                          123 nulls.
+- Latitude                            123 nulls.
+- Longitude                           123 nulls.
 
  Type of data in the dataset: 
 Object
