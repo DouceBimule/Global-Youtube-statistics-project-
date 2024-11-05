@@ -10,35 +10,35 @@ Number of Records: Approximately 500,000 videos.
 And we have 28 columns stated below
 
 Key Attributes:
-Rank: rank of the youtuber 
-Youtuber: name of the youtube channel
-Subscribers: numbers of subscribers per youtube channel
-video views: Total numbers of views per video
-Category: Numerical identifier representing the video category (e.g., Music, Education).
-Title: Title of the video     
-Uploads: number of videos uploaded by the youtuber.
-Country: Country where subscribers live in.
+1) Rank: rank of the youtuber 
+2) Youtuber: name of the youtube channel
+3) Subscribers: numbers of subscribers per youtube channel
+4) video views: Total numbers of views per video
+5) Category: Numerical identifier representing the video category (e.g., Music, Education).
+6) Title: Title of the video     
+7) Uploads: number of videos uploaded by the youtuber.
+8) Country: Country where subscribers live in.
 
 Abbreviation:
-Channel_type: category of videos being uploaded on a channel.(e.g., Music, Education).
- Video_views_rank: top viewed videos in the world.
-Country_rank: top viewed videos per country.
-Channel_type_rank: Top channels according to the category of videos being uploaded on it.
- Video_views_for_the_last_30_days: numbers of video clicks per month 
-Lowest_monthly_earnings: least paid youtuber per month.
- highest_monthly_earnings: highest paid youtuber per month.
-Lowest_yearly_earnings: least paid youtuber per year.
- highest_yearly_earnings: Highest paid youtuber per year.
-Subscribers_for_last_30_days: numbers of subscribers earned by a youtube channel per month.
- Created_year: year creation of the youtube channel
-Created_month: month creation of the youtube channel
-Created_date: day creation of the youtube channel
- Gross tertiary education enrollment (%):
-Population: population of countries.
- Unemployment rate: rate of unemployment per country. 
-Urban_population: number of people living in an urban area per country.
-Latitude: measurement of a location north or south of the Equator for each country. 
-Longitude: measurement of location east or west of the prime meridian at Greenwich for each country.
+1) Channel_type: category of videos being uploaded on a channel.(e.g., Music, Education).
+2) Video_views_rank: top viewed videos in the world.
+3) Country_rank: top viewed videos per country.
+4) Channel_type_rank: Top channels according to the category of videos being uploaded on it.
+5) Video_views_for_the_last_30_days: numbers of video clicks per month 
+6) Lowest_monthly_earnings: least paid youtuber per month.
+7) highest_monthly_earnings: highest paid youtuber per month.
+8) Lowest_yearly_earnings: least paid youtuber per year.
+9) highest_yearly_earnings: Highest paid youtuber per year.
+10)Subscribers_for_last_30_days: numbers of subscribers earned by a youtube channel per month.
+11)Created_year: year creation of the youtube channel
+12)Created_month: month creation of the youtube channel
+13)Created_date: day creation of the youtube channel
+14)Gross tertiary education enrollment (%):
+15)Population: population of countries.
+16)Unemployment rate: rate of unemployment per country. 
+17)Urban_population: number of people living in an urban area per country.
+18)Latitude: measurement of a location north or south of the Equator for each country. 
+19)Longitude: measurement of location east or west of the prime meridian at Greenwich for each country.
 
      Data Quality Considerations:
 Missing Values: Some records may have missing values in fields like dislikes or comment counts.
@@ -67,14 +67,14 @@ Defined Business Problem/Question
 Business Problem:
 Understanding the factors that drive video performance on YouTube to optimise content creation.
 Key Questions to Address:
-What characteristics of YouTube videos (e.g. category, country per category, views per category, yearly earnings per category ).
-How does audience engagement vary across different content categories?
-What trends exist in viewer retention and how can they inform content strategy?
-What video category has the highest yearly earnings?
-What countries have the highest subscribers?
-Does the number of population per country affect the video views?
-Employment rate(how does it influence the content creation).
-Demographic Information: Incorporate viewer demographic data to personalise content strategies.
+1) What characteristics of YouTube videos (e.g. category, country per category, views per category, yearly earnings per category ).
+2) How does audience engagement vary across different content categories?
+3) What trends exist in viewer retention and how can they inform content strategy?
+4) What video category has the highest yearly earnings?
+5) What countries have the highest subscribers?
+6) Does the number of population per country affect the video views?
+7) Employment rate(how does it influence the content creation).
+8) Demographic Information: Incorporate viewer demographic data to personalise content strategies.
 
 Objective:
 Provide actionable insights to content creators, and platform managers to enhance video performance, increase audience engagement, and drive channel growth.
