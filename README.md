@@ -29,16 +29,16 @@ Abbreviation:
 7) highest_monthly_earnings: highest paid youtuber per month.
 8) Lowest_yearly_earnings: least paid youtuber per year.
 9) highest_yearly_earnings: Highest paid youtuber per year.
-10)Subscribers_for_last_30_days: numbers of subscribers earned by a youtube channel per month.
-11)Created_year: year creation of the youtube channel
-12)Created_month: month creation of the youtube channel
-13)Created_date: day creation of the youtube channel
-14)Gross tertiary education enrollment (%):
-15)Population: population of countries.
-16)Unemployment rate: rate of unemployment per country. 
-17)Urban_population: number of people living in an urban area per country.
-18)Latitude: measurement of a location north or south of the Equator for each country. 
-19)Longitude: measurement of location east or west of the prime meridian at Greenwich for each country.
+10) Subscribers_for_last_30_days: numbers of subscribers earned by a youtube channel per month.
+11) Created_year: year creation of the youtube channel
+12) Created_month: month creation of the youtube channel
+13) Created_date: day creation of the youtube channel
+14) Gross tertiary education enrollment (%):
+15) Population: population of countries.
+16) Unemployment rate: rate of unemployment per country. 
+17) Urban_population: number of people living in an urban area per country.
+18) Latitude: measurement of a location north or south of the Equator for each country. 
+19) Longitude: measurement of location east or west of the prime meridian at Greenwich for each country.
 
      Data Quality Considerations:
 Missing Values: Some records may have missing values in fields like dislikes or comment counts.
