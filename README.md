@@ -185,6 +185,7 @@ Visualizations Generated:
  Type: Tree Map
  Insight: Displays the rate of unemployment rate by country and its influence on content creation,views and subscription.
 
+
 Insights Derived:
 
 - High-Performing Categories:
@@ -202,6 +203,7 @@ Channels with larger subscriber bases experience faster growth in views and enga
 - Geographical Viewer Trends:
   
 A significant portion of views originates from North America and India, informing targeted marketing strategies.
+
 
 6. Next Steps for the Project
    
